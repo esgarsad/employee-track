@@ -253,8 +253,6 @@ initialQuery = () => {
               
                     employeeLastName = answer.empLastName;
                     // db query to find all employees by user inputted last name
-                    // then puts part of the response into an array for subsequent inquirer question
-                    // then displays info to the user in table
                     const query = `SELECT emp_id AS Employee_ID, first_name AS First_Name, last_name AS Last_Name, title AS Title, salary AS Salary, departments.name AS Department FROM employees 
                     INNER JOIN roles ON employees.role_Id = roles.role_id
                     INNER JOIN departments ON roles.dept_id = departments.dept_id 

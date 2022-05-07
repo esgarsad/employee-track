@@ -8,7 +8,8 @@ Download the files from repository and install inquirer and mysql2
 
 ## Use
 
-It runs from terminal and all information in database is editable so any business owner can use it
+It runs from terminal and all information in database is editable so any business owner can use it. 
+See a short walktrhough video here https://drive.google.com/file/d/12A6SDay5sNqQdZGfyeA6XTYK9-PyqNED/view
 
 
 ## Additional notes
