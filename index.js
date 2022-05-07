@@ -5,6 +5,9 @@ const cTable = require("console.table");
 // modules set as variables
 const {connection} = require('./db/connection');
 
+let listOfEmployees = [];
+let listOfRoles = [];
+
 // function that runs upon starting the file
 connection.connect((err) => {
   if (err) throw err;
@@ -232,8 +235,7 @@ initialQuery = () => {
             break;
 
             case "Update employee role":
-                let listOfEmployees = [];
-                let listOfRoles = [];
+               
                 let employeeLastName = null;
                 
                 // asks the user for the last name of the employee they would like to update
