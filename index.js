@@ -138,7 +138,6 @@ initialQuery = () => {
                         type: "number",
                         name: "salary",
                         message: "What is the salary for the role you would like to add?",
-                        default: 10000
                       },
                       {
                         type: "list",
@@ -175,7 +174,6 @@ initialQuery = () => {
                         value: role.role_id
                       }
                     ));
-                    
                     
                     inquirer
                       .prompt([
