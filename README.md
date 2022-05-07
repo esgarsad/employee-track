@@ -15,4 +15,4 @@ It runs from terminal and all information in database is editable so any busines
 Employee trackr still under development, and more functionalities will be added in the future
 
 
-![note-taker](https://github.com/esgarsad/employee-track/blob/main/public/assets/images/employee-trackr.jpg)
+![employee-trackr](https://github.com/esgarsad/employee-track/blob/main/assets/images/employee-trackr.jpg)
